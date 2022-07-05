@@ -1,3 +1,6 @@
+<?php
+    require_once('./assets/scripts/inscription_bdd.php');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +11,7 @@
 </head>
 <body>
     <div class="form-inscription">
-        <form action="inscription.php" method="POST">
+        <form method="POST">
             <fieldset>
                 <h2>Inscription</h2>
                 <label>

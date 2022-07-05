@@ -1,3 +1,7 @@
+<?php
+    require("./assets/scripts/connexion_bdd.php");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +12,7 @@
 </head>
 <body>
     <div class="form-connexion">
-        <form action="index.php" method="POST">
+        <form method="POST">
             <fieldset>
                 <h2>Connexion</h2>
                 <label>
