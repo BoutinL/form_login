@@ -9,7 +9,8 @@
         $repass = htmlspecialchars($_POST["repass"]);
 
         if ($pass != $repass) {
-            echo "Mots de passe non identiques !";
+            exit ("Mots de passe non identiques !");
+            header('location:./inscription.php');
         }
 
         $req = $pdo->prepare("SELECT id FROM users WHERE user_login=?");

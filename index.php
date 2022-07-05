@@ -8,13 +8,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=!, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <title>Accueil - Connexion</title>
 </head>
 <body>
-    <div class="form-connexion">
+    <container class="form-inscription">
         <form method="POST">
             <fieldset>
-                <h2>Connexion</h2>
+                <h1>Connexion</h1>
                 <label>
                     <span>Nom d'utilisateur</span>
                     <input type="text" name="username">
@@ -23,10 +24,10 @@
                     <span>Mot de passe</span>
                     <input type="password" name="pass">
                 </label>
-                <input type="submit" name="submit" value="Connexion">
-                <span>Pas encore inscript ?</span><a href="inscription.php">Inscription</a>
+                <input type="submit" name="submit" value="Connexion" class="btn-submit">
+                <span>Pas encore inscript ?<a href="inscription.php">Inscription</a></span>
             </fieldset>
         </form>
-    </div>
+    </container>
 </body>
 </html>

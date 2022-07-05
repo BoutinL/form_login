@@ -1,7 +1,7 @@
 <?php
     if (!empty($_POST['submit'])) {
         require_once("assets/scripts/link_bdd.php");
-        
+
         $login = htmlspecialchars($_POST["username"]); 
         $pass = htmlspecialchars($_POST["pass"]);
 
@@ -13,7 +13,7 @@
         if(empty($tab)) {
             echo "L'utilisateur n'existe pas.";
         } else {
-            if (password_verify($pass, $tab[0]["user_password"])) {
+            if (password_verify($pass,  $tab[0]["user_password"])) {
                 echo "L'utilisateur existe et le mot de passe est OK.";
                 header('location:./espacePrive.php');
             } else {

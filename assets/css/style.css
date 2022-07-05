@@ -1,0 +1,61 @@
+/* Reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+/* Reset fin */
+
+form{
+    display: flex;
+    align-items: center;
+    background-color: #ccd3ff;
+
+}
+fieldset{
+    width: 45%;
+    height: 30%;
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#5D6AD4;
+    border-radius: 30px;
+    box-shadow: 5px 5px #302845;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.btn-submit{
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+}
+span{
+    text-align: center;
+}

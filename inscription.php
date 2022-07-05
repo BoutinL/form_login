@@ -7,13 +7,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <title>Inscription</title>
 </head>
 <body>
-    <div class="form-inscription">
+    <container class="form-inscription">
         <form method="POST">
             <fieldset>
-                <h2>Inscription</h2>
+                <h1>Inscription</h1>
                 <label>
                     <span>Nom</span>
                     <input type="text" name="firstname">
@@ -34,10 +35,10 @@
                     <span>Confirmation du mot de passe</span>
                     <input type="password" name="repass">
                 </label>
-                <input type="submit" name="submit" value="S'inscrire">
-                <span>Déja inscrit ?</span><a href="index.php">Login</a>
+                <input type="submit" name="submit" value="S'inscrire" class="btn-submit">
+                <span>Déja inscrit ?<a href="index.php">Login</a></span>
             </fieldset>
         </form>
-    </div>
+    </container>
 </body>
 </html>
