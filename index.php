@@ -17,7 +17,7 @@
                 </label>
                 <label>
                     <span>Mot de passe</span>
-                    <input type="text" name="pass">
+                    <input type="password" name="pass">
                 </label>
                 <input type="submit" name="submit" value="Connexion">
                 <span>Pas encore inscript ?</span><a href="inscription.php">Inscription</a>

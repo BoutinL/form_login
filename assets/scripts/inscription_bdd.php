@@ -1,12 +1,6 @@
 <?php
-require("link_bdd");
-
-// Garnissage brut des données (juste pour l'exemple) :
-$_POST["nom"] = "Boutin";
-$_POST["prenom"] = "Loïc";
-$_POST["login"] = "Vex_Astaroth";
-$_POST["pass"] = "azertyuiop";
-$_POST["repass"] = "azertyuiop";
+require("link_bdd.php");
+require("inscription.php");
 // On nettoie ce que l'utilisateur a saisi afin de s'assurer que ce n'est pas du code malveillant :
 $nom = htmlspecialchars($_POST["firstname"]);
 $prenom = htmlspecialchars($_POST["lastname"]);

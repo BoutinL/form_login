@@ -25,11 +25,11 @@
                 </label>
                 <label>
                     <span>Mot de passe</span>
-                    <input type="text" name="pass">
+                    <input type="password" name="pass">
                 </label>
                 <label>
                     <span>Confirmation du mot de passe</span>
-                    <input type="text" name="repass">
+                    <input type="password" name="repass">
                 </label>
                 <input type="submit" name="submit" value="S'inscrire">
                 <span>Déja inscrit ?</span><a href="index.php">Login</a>
