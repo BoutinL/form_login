@@ -19,6 +19,9 @@
             } else {
                 echo "L'utilisateur existe mais mot de passe est incorrect !";
             }
+            session_start();
+            $_SESSION["username"] = htmlspecialchars($_POST["username"]);
+            echo '<br/><a href="espacePrive.php?'. SID . '"></a>';
         }
     }
 ?>

@@ -12,22 +12,20 @@
     <title>Accueil - Connexion</title>
 </head>
 <body>
-    <container class="form-inscription">
-        <form method="POST">
-            <fieldset>
-                <h1>Connexion</h1>
-                <label>
-                    <span>Nom d'utilisateur</span>
-                    <input type="text" name="username">
-                </label>
-                <label>
-                    <span>Mot de passe</span>
-                    <input type="password" name="pass">
-                </label>
-                <input type="submit" name="submit" value="Connexion" class="btn-submit">
-                <span>Pas encore inscript ?<a href="inscription.php">Inscription</a></span>
-            </fieldset>
-        </form>
-    </container>
+    <form method="POST" class="form-connexion">
+        <fieldset>
+            <h1>Connexion</h1>
+            <label>
+                <span>Nom d'utilisateur</span>
+                <input type="text" name="username">
+            </label>
+            <label>
+                <span>Mot de passe</span>
+                <input type="password" name="pass">
+            </label>
+            <input type="submit" name="submit" value="Connexion" class="btn-submit">
+            <span>Pas encore inscrit ?<a href="inscription.php">Inscription</a></span>
+        </fieldset>
+    </form>
 </body>
 </html>
