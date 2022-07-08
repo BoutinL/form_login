@@ -14,9 +14,11 @@
         <?php
             session_start();
             require('./assets/scripts/connexion_bdd.php');
-            echo $_SESSION['username'];
+            echo strtoupper($_SESSION['username']);
+            echo '<a href="index.php">Deconnexion</a>';
+            unset($_SESSION['username']);
+            session_destroy();
         ?>
-        <a href="index.php"><span>Deconnexion</span></a>
     </div>
 </body>
 </html>

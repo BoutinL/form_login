@@ -24,15 +24,15 @@
             </label>
             <label>
                 <span>Nom d'utilisateur</span>
-                <input type="text" name="username">
+                <input type="text" name="username" required>
             </label>
             <label>
                 <span>Mot de passe</span>
-                <input type="password" name="pass">
+                <input type="password" name="pass" required>
             </label>
             <label>
                 <span>Confirmation du mot de passe</span>
-                <input type="password" name="repass">
+                <input type="password" name="repass" required>
             </label>
             <input type="submit" name="submit" value="S'inscrire" class="btn-submit">
             <span>Déja inscrit ?<a href="index.php">Login</a></span>
